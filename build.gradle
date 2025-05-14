@@ -1,12 +1,12 @@
 plugins {
-    id "dev.architectury.loom" version "1.7-SNAPSHOT"
+    id "dev.architectury.loom" version "1.10-SNAPSHOT"
     id "com.hypherionmc.modutils.modpublisher" version "2.+"
     id "maven-publish"
 }
 
 repositories {
     maven {
-        url "https://papermc.io/repo/repository/maven-public/"
+        url "https://repo.papermc.io/repository/maven-public/"
     }
     maven { name 'Jitpack'; url 'https://jitpack.io' }
 }
